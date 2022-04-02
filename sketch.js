@@ -42,15 +42,15 @@ function draw()
 }
 
 
-function keyPessed ()
- {
-   if (KeyCode===UP_ARROW) 
+function keyPressed ()
+{
+  if(keyCode==UP_ARROW)
    {
      upward_thrust();
      lander.changeAnimation('thrusting');
      thrust.nextFrame();
 
-   }
+    }
 }
 
 function upward_thrust()
